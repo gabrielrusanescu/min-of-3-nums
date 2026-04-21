@@ -1,3 +1,6 @@
+; nasm -f elf32 program.asm -o program.o
+; ld -m elf_i386 program.o -o program
+; ./program
 ; a b c
 ; daca a<b atunci min=a, altfel min=b
 ; daca c<min atunci min=c, altfel min ramane min
