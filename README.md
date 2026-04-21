@@ -18,3 +18,5 @@ The algorithm follows this conditional structure:
 If a < b, then min = a; else min = b.
 
 If c < min, then min = c; else min remains unchanged.
+
+(ex14.asm is the main file, the others are add-ons / conversions to C/ASM or something similar)
